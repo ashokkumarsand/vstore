@@ -15,7 +15,20 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@vstore/shared/store": ["libs/shared/store/src/index.js"],
+      "@vstore/ui/header": ["libs/ui/header/src/index.js"],
+      "@vstore/ui/shopping-catalogue": [
+        "libs/ui/shopping-catalogue/src/index.js"
+      ],
+      "@vstore/ui/shopping-cart": ["libs/ui/shopping-cart/src/index.js"],
+      "@vstore/ui/loader": ["libs/ui/loader/src/index.js"],
+      "@vstore/ui/icon": ["libs/ui/icon/src/index.js"],
+      "@vstore/ui/buttons": ["libs/ui/buttons/src/index.js"],
+      "@vstore/ui/address": ["libs/ui/address/src/index.js"],
+      "@vstore/ui/error-boundary": ["libs/ui/error-boundary/src/index.js"],
+      "@vstore/ui/order-history": ["libs/ui/order-history/src/index.js"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

@@ -21,5 +21,43 @@
       }
     }
   },
-  "projects": {}
+  "projects": {
+    "web-ui": {
+      "tags": []
+    },
+    "web-ui-e2e": {
+      "tags": [],
+      "implicitDependencies": ["web-ui"]
+    },
+    "store": {
+      "tags": []
+    },
+    "ui-header": {
+      "tags": []
+    },
+    "ui-shopping-catalogue": {
+      "tags": []
+    },
+    "ui-shopping-cart": {
+      "tags": []
+    },
+    "ui-loader": {
+      "tags": []
+    },
+    "ui-icon": {
+      "tags": []
+    },
+    "ui-buttons": {
+      "tags": []
+    },
+    "ui-address": {
+      "tags": []
+    },
+    "ui-error-boundary": {
+      "tags": []
+    },
+    "ui-order-history": {
+      "tags": []
+    }
+  }
 }

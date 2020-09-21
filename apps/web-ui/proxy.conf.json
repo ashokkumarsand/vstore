@@ -1,0 +1,6 @@
+{
+    "/api": {
+      "target": "https://fakestoreapi.com/",
+      "secure": false
+    }
+  }

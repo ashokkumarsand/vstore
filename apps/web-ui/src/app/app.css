@@ -1,0 +1,13 @@
+html,
+body, #root {
+  height: 100%;
+  margin: 0;
+}
+
+.app {
+  display: flex;
+  flex : 1 1 100%;
+  flex-direction: column;
+  font-family: sans-serif;
+  height: 100%;
+}
